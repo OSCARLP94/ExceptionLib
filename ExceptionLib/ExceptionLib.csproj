@@ -9,6 +9,10 @@
     <Authors>Oscar Lozano</Authors>
     <Company>TresFilos</Company>
     <Description>Simple Package for manage responses and exceptions</Description>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <PackageReleaseNotes>Fix method UnSuccessful</PackageReleaseNotes>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

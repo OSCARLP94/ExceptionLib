@@ -49,7 +49,7 @@ namespace ExceptionLib
         /// </summary>
         /// <param name="data"></param>
         /// <returns></returns>
-        public static JsonResult UnSuccesful(dynamic data)
+        public static JsonResult UnSuccessful(dynamic data)
         {
             return new JsonResult(new
             {
@@ -67,13 +67,13 @@ namespace ExceptionLib
         /// <param name="data"></param>
         /// <param name="message"></param>
         /// <returns></returns>
-        public static JsonResult UnSuccesful(dynamic data, string message)
+        public static JsonResult UnSuccessful(string message)
         {
             return new JsonResult(new
             {
                 response = true,
                 successful = false,
-                data = data,
+                data = null as object,
                 message = message,
                 error = ""
             });
