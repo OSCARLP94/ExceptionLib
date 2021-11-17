@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
-using System;
 
 namespace ExceptionLib
 {
@@ -97,39 +95,5 @@ namespace ExceptionLib
             });
         }
 
-        /// <summary>
-        /// Returns JsonResult with exception and message
-        /// </summary>
-        /// <param name="ex"></param>
-        /// <param name="message"></param>
-        /// <returns></returns>
-        public static JsonResult WithErrorException(Exception ex, string message)
-        {
-            return new JsonResult(new
-            {
-                response = false,
-                successful = false,
-                data = null as object,
-                message = message,
-                error = JsonConvert.SerializeObject(ex)
-            });
-        }
-
-        /// <summary>
-        /// Returns JsonResult with exception
-        /// </summary>
-        /// <param name="ex"></param>
-        /// <returns></returns>
-        public static JsonResult WithErrorException(Exception ex)
-        {
-            return new JsonResult(new
-            {
-                response = false,
-                successful = false,
-                data = null as object,
-                message = "",
-                error = JsonConvert.SerializeObject(ex)
-            });
-        }
     }
 }

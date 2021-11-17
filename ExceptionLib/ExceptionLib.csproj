@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageIcon>playstore.png</PackageIcon>
+    <RepositoryUrl>https://github.com/OSCARLP94/ExceptionLib.git</RepositoryUrl>
+    <Copyright>https://github.com/OSCARLP94/ExceptionLib/new/main?filename=LICENSE.md</Copyright>
+    <PackageProjectUrl>https://github.com/OSCARLP94/ExceptionLib</PackageProjectUrl>
+    <Authors>Oscar Lozano</Authors>
+    <Company>TresFilos</Company>
+    <Description>Simple Package for manage responses and exceptions</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Pictures\AppIcons\playstore.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
