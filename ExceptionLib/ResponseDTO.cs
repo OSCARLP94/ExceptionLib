@@ -14,7 +14,7 @@ namespace ExceptionLib
             this.successful = origin.successful;
             this.message = origin.message;
             this.data = origin.data;
-            this.error = origin.data;
+            this.error = origin.error;
         }
 
         public bool response { get; set; }
