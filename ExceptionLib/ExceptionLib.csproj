@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,9 +10,9 @@
     <Company>TresFilos</Company>
     <Description>Simple Package for manage responses and exceptions</Description>
     <AssemblyVersion>1.0.0.1</AssemblyVersion>
-    <FileVersion>1.0.0.1</FileVersion>
-    <PackageReleaseNotes>Fix method UnSuccessful</PackageReleaseNotes>
-    <Version>1.0.1</Version>
+    <FileVersion>1.0.0.2</FileVersion>
+    <PackageReleaseNotes>Class ResultDto for transform IActionresult to object</PackageReleaseNotes>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
